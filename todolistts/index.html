@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>My Todos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background: rgba(11,6,25,0.51)">
+<div style="border:1px solid #05030f; width: 50% ; margin: auto; background: white ; height: 700px; overflow: auto";   >
+<div style="background-color: #fff6a1; height: 70px; padding-top: 5px ; width: 100%; margin: auto" ><center> <h1>My Todos</h1></center></div>
+<div style="border: 1px solid black  ; width: 100%; margin: auto"> </div>
+<!--
+<div style="color: darkgray; padding-left: 500px" ><h2>ADD TODO</h2></div>
+-->
+<div style="margin:auto; ">
+<center>
+
+
+    <input onkeypress="enterkey(event)" id="addtodo" style="border: none; border-bottom:1px solid slategray ;outline: none; padding-top: 40px" type="text" placeholder="Todo title goes here"/>
+    <button onclick=addtodo() style=" margin-left:70px;background-color: #99cafb; border: none;border-radius:5px;  height: 30px; width: 50px">ADD</button>
+</center>
+</div>
+
+    <div style="border-bottom: 1px solid black  ; width: 100%; margin: auto; padding-top: 20px; margin-bottom: 20px"> </div>
+
+<!--<div style="padding-top: 20px; padding-left: 500px"> <h2>Active Todos</h2> </div>-->
+<!--<div id="activetodolist"   style="padding-left :50px"></div>-->
+
+
+    <table id="activetodolist"  style="margin: auto;  width:350px; " >
+
+</table>
+
+
+
+
+
+</div>
+<script src="./script1.js"></script>
+
+<script src="./script2.js"></script>
+
+
+</body>
+</html>
